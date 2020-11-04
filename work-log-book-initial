@@ -1,0 +1,52 @@
+2020-10-22
+
+~/junofs/test
+AI.sh为整个目录的主函数，这个目录下面都是一些临时的关于sniper模拟软件的测试，这里面的数据大都不重要。
+
+
+~/junofs/jiangwei_test/AI_test
+这个里面做的测试为：蒋伟的中子俘获的测试，看看内存的缓慢上涨是否与开关有关。
+测试的作业为：SNeutron_detsim_122.sh
+
+~/junofs/jiangwei_test/particle_gun_test
+这个里面的测试为：蒋伟的中子俘获测试，单独用粒子枪发射中子看看内存是否缓慢上涨情况
+
+~/junofs/jiangwei_test/particle_gun_test_more
+这个里面的测试：蒋伟的中子测试，主要是让每次事例单独放出多个动量为1Mev的中子看看内存情况。
+
+2020-10-23
+
+~/junofs/xu_muon_test/test5 这个目录下面是徐吉磊的模拟作业的检测，检测是否为几个开关的问题。
+里面的AI.sh为主脚本。
+
+2020-10-25
+~/junofs/test2
+这个目录负责存放centos7下官方版本模拟的结果与模拟的脚本。
+
+~/junofs/background_test1
+测试新更新的normal时间上的性能
+
+2020-10-27
+~/junofs/test
+test_IBD.sh为 用更新的normal测试IBD模拟
+IBD测试不同的地方有trackid   edep  Qedep
+
+2020-10-28
+~/junofs/background_test1
+测试新更新的normal时间上的性能，测试的是更新后的normal在信息都输出的时候的各个函数所占用的时间
+结果在dcs.root里面。
+~/junofs/background_test2
+测试新更新的normal时间上的性能，测试的是更新后的normal在只输出事例级别信息的时候各个函数所占用的时间
+结果在dcs.root里面。
+~/junofs/background_test3
+测试不更新的normal，各个函数占用的时间。
+
+
+2020-10-29
+~/junofs/jiangwei_test/jm_hit_test
+这个目录下面主要是测试SNeutron_detsim_122.sh这个作业中间缓慢上涨的原因是否是因为hit数目本来就很多的原因
+~/junofs/test
+这个目录下面normal_all 和normal_partial以及official分别保存着normal更新之后，利用IBD事例进行测试的模拟结果。
+root文件和user_root文件，现在看来是能够比对的上的
+
+~/junofs/jiangwei_test/hit_type2_test
