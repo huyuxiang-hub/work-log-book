@@ -49,4 +49,7 @@ IBD测试不同的地方有trackid   edep  Qedep
 这个目录下面normal_all 和normal_partial以及official分别保存着normal更新之后，利用IBD事例进行测试的模拟结果。
 root文件和user_root文件，现在看来是能够比对的上的
 
+
+2020-11-4
 ~/junofs/jiangwei_test/hit_type2_test
+该目录下面是将中子模拟的hit类型改为hit_type2，然后测试内存的情况。
